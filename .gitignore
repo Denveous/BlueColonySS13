@@ -1,0 +1,50 @@
+#ignore misc BYOND files
+Thumbs.db
+*.log
+*.int
+*.rsc
+*.dmb
+*.lk
+*.backup
+*.before
+#*.dmm
+data/
+cfg/
+#sensitive.dm -- we aren't using SQL, and this breaks stuff
+.git/
+.git.zip
+
+#ignore other misc files
+*.pyc
+#this is putting me over limit for github filesize limit
+sound/*
+maps/Geminus/backup/*
+.vscode/tasks.json
+maps/Geminus/backup/geminus-3.dmm
+maps/Geminus/backup/geminus-2.dmm
+maps/Geminus/backup/geminus-1.dmm                                                                                                                                                                                                              
+maps/Geminus/backup/geminus-2.dmm
+/config/*	
+!/config/*/*
+!config/config.txt
+#config/admins.txt
+#config/access levels.txt
+#config/alienwhitelist.txt
+!config/custom_items.txt
+#config/custom_sprites.txt
+#config/dbconfig.txt
+#config/forumdbconfig.txt
+#config/game_options.txt
+#config/mentors.txt
+#config/jobs.txt
+#config/moderators.txt
+#config/motd.txt
+#config/rules.html
+#config/svndir.txt
+!config/hardwhitelist.txt
+#code/_global_vars/sensitive.dm
+#code/_global_vars/sensitive.dm
+#code/_global_vars/sensitive.dm
+config/forumdbconfig.txt
+config/dbconfig.txt
+config/webhooks.json
